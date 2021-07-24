@@ -1,0 +1,76 @@
+.container {
+   background-image:url("./images/maths.jpg");
+   height: 800px;
+   opacity:0.9;
+   /* object-fit: cover; */
+}
+/* staring main section here */
+.main {
+   position: relative;
+   top: 200px;
+   left: 501px;
+   display: grid;
+   grid-template-columns: auto auto;
+   width: 0;
+   /* padding: 10px; */
+}
+
+.main .sub-box {
+   /* border: 1px solid black;
+   padding:1rem;
+   width:200px;
+   border-radius: 50px;
+   justify-content: center;
+   align-items: center; */
+   background-color: rgba(255, 255, 255, 0.8);
+   border: 1px solid rgba(0, 0, 0, 0.8);
+   padding: 20px;
+   font-size: 30px;
+   text-align: center;
+   margin: 2rem;
+   border-radius: 40px;
+   width: 150px;
+   height: 150px;;
+}
+.main .sub-box:hover {
+   background-color:darkturquoise;
+}
+
+.main .sub-box h5 {
+   margin-block-start: 0;
+   margin-block-end: 0;
+   margin: 2.5rem;
+   font-size: 20px;
+   text-align: center;
+}
+
+.main .sub-box h5 a {
+   text-decoration: none;
+}
+
+/* footer started here */
+.footer {
+   margin: 0 500px;
+   position: relative;
+   top: 250px;
+}
+
+.footer .footer-list {
+   display: flex;
+   margin:0 2rem;
+}
+
+.footer .footer-list .list-item {
+   list-style-type: none;
+}
+
+.footer .footer-list .list-item a i {
+   margin: 0 2rem;
+   font-size: 2rem;
+   color:rgb(179 180 183);
+}
+
+.footer .footer-list .list-item a i:hover{
+   color:rgb(196, 144, 34);
+}
+

@@ -1,0 +1,11 @@
+.content {
+    margin: 0;
+}
+
+.content .form-header img {
+    height:100px;
+    background-color:#fff;
+}
+.footer{
+    bottom: 50px;
+}
